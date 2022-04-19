@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kayıt Ol</title>
+  </head>
+  <body>
+    <nav>
+      <a href="index.html"> <b style="color:blue"> Anasayfa</b></a>
+      <a href="en-iyi-filmler.html"> <b style="color: blueviolet;"> En İyi Filmler</b></a>
+      <a href="kayıt-ol.html"><b style="color:brown"> Kayıt Ol</b></a>
+  </nav>
+    <h1>Lütfen Formu Eksiksiz Doldurun</h1>
+
+    <h2>Hesap Bilgileriniz</h2>
+
+    <table>
+      <tr>
+        <td style="width: 120px">
+          <label for="name"> Kullanıcı Adınız:</label>
+        </td>
+        <td style="width: 20px"></td>
+        <td>
+          <input type="text" id="name" placeholder="Kullanıcı adı giriniz" />
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          <label for="eposta">Email:</label>
+        </td>
+        <td></td>
+        <td><input type="email" id="eposta" placeholder="Eposta giriniz" /></td>
+      </tr>
+
+      <tr>
+        <td><label for="Parola"> Parola</label></td>
+        <td></td>
+        <td>
+          <input type="password" id="Parola" placeholder="Parola giriniz" />
+        </td>
+      </tr>
+    </table>
+
+    <h2>Kişisel Bilgileriniz</h2>
+
+    <table>
+      <tr>
+        <td style="width: 120px"><label for="ad">Adınız :</label></td>
+        <td style="width: 20px"></td>
+        <td><input type="name" id="ad" placeholder="Adınızı Giriniz" /></td>
+      </tr>
+      <tr>
+        <td><label for="soy"> Soyadınız :</label></td>
+        <td></td>
+        <td>
+          <input type="surname" id="soy" placeholder="Soyadınızı Giriniz" />
+        </td>
+      </tr>
+
+      <tr>
+        <td><label for="cities"> Şehir</label></td>
+        <td></td>
+        <td>
+          <select id="cities">
+            <option>Seçiniz</option>
+            <option value="46">Kahramanmaraş</option>
+            <option value="34">İstanbul</option>
+          </select>
+        </td>
+      </tr>
+
+      <tr>
+        <td>Cinsiyet:</td>
+        <td></td>
+        <td>
+          <label for="erkek">Erkek</label>
+          <input type="radio" id="erkek" name="cins" />
+
+          <label for="kadın">Kadın</label>
+          <input type="radio" id="kadın" name="cins" />
+        </td>
+      </tr>
+      <tr>
+        <td>Hobileriniz:</td>
+        <td></td>
+        <td>
+          <label for="hobiler"> Sinema</label>
+          <input type="checkbox" id="hobiler" />
+
+          <label for="hobiler"> Gezmek</label>
+          <input type="checkbox" id="hobiler" />
+
+          <input type="checkbox" id="hobiler" />Spor
+
+          <input type="checkbox" />Kitap
+        </td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td><button type="submit">Kaydet</button></td>
+      </tr>
+    </table>
+  </body>
+</html>
